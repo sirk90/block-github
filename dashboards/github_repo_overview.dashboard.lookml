@@ -497,7 +497,7 @@
     model: block-github-v2
     explore: pull_request
     type: looker_grid
-    fields: [pull_request_head_user.head_user_name, pull_request.id, reposityry_head.head_repo_name,
+    fields: [pull_request_head_user.head_user_name, pull_request.id, repository_head.head_repo_name,
       issue.name]
     filters:
       pull_request.is_merged: 'No'
