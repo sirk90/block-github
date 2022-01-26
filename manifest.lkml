@@ -1,7 +1,7 @@
 project_name: "block-github"
 
 constant: CONNECTION_NAME {
-  value: "4mile_bigquery"
+  value: "github-connection"
   export: override_required
 }
 
