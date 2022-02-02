@@ -1,12 +1,12 @@
 project_name: "block-github"
 
 constant: CONNECTION_NAME {
-  value: "static_data"
+  value: "github-connection"
   export: override_required
 }
 
 constant: GITHUB_SCHEMA {
-  value: "github_skeleton"
+  value: "source_github"
   export: override_required
 }
 

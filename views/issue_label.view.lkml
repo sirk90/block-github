@@ -23,9 +23,14 @@ view: issue_label {
     sql: ${TABLE}.issue_id ;;
   }
 
+  dimension: label_id {
+    type: string
+    sql: ${TABLE}.label_id ;;
+  }
+
   dimension: label {
     type: string
-    sql: ${TABLE}.label ;;
+    sql: ${label.name} ;;
   }
 
   measure: count {
