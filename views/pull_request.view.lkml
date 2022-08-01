@@ -91,7 +91,7 @@ view: pull_request {
 
   dimension: is_merged {
     type: yesno
-    sql: ${merge_commit_sha} IS NULL ;;
+    sql: ${merge_commit_sha} IS NOT NULL ;;
   }
 
   measure: count {
